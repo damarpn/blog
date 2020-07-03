@@ -1,8 +1,9 @@
-baseurl      = "localhost"
+baseurl      = "https://damarpn.github.io"
 title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+#relativeURLs = true
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -78,10 +79,10 @@ paginate     = 10
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
-    url        = "/posts"
+    url        = "/posts/"
 
     # And you can even create generic menu
 	[[menu.main]]
 		identifier = "about"
 		name       = "About"
-		url        = "/about"
+		url        = "/about/"
