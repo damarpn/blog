@@ -3,6 +3,7 @@ title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+disqusShortname = "jul-prm"
 #relativeURLs = true
 
 [params]
